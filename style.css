@@ -60,7 +60,7 @@ section {
   font-size: 3em;
   font-weight: 700;
 }
-.main h5 {
+.main h6 {
   color: rgb(224, 224, 224);
   font-size: 2em;
   font-weight: 700;
@@ -113,6 +113,7 @@ section {
   padding: 25px;
   margin: 16px;
 }
+
 .card:hover {
   transform: scale(1.1);
   transition: 0.9s ease;
@@ -159,4 +160,11 @@ section {
 }
 .footer-title span {
   color: rgb(1, 39, 121);
+}
+.project-image {
+  opacity: 0.9;
+}
+
+.project-image img {
+  width: 100%;
 }
